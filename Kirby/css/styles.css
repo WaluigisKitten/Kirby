@@ -1,0 +1,221 @@
+/* CSS Document */
+
+@font-face {
+    font-family: "kirby classic";
+    src: url("../kirby-classic.ttf");
+}
+
+.mainbody {
+	background-color: #e791bf;
+	margin: 0%;
+}
+
+.indeximg { 
+	margin-left: 5%;
+
+	border: 10px solid black;
+}
+.indexh1 {
+	font-family: "kirby classic";
+	font-size: 5em;
+	color: gold;
+	text-align: center;
+	background: -webkit-linear-gradient(white, yellow, gold);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mainp {
+	font-family: "kirby classic";
+	color: gold;
+	font-size: 2em;
+	font-weight: bold;
+	background: -webkit-linear-gradient(white, yellow, gold);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	text-align: center;
+	padding: 0%, 6%, 0%, 6%;
+}
+
+.mainp2 {
+	font-family: "kirby classic";
+	color: gold;
+	font-size: 2em;
+	font-weight: bold;
+	background: -webkit-linear-gradient(white, yellow, gold);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	text-align: center;
+	margin: 0%, 6%, 0%, 6%;
+}
+
+.hnav {
+	width: 100%;
+	background-color: #11181E88;
+	min-height: 50px;
+	text-align: center;
+	vertical-align: center;
+	padding-top: 1em;
+}
+
+.hnav ul {
+	display: block;
+	padding-top: 1em;
+}
+
+.hnav ul li {
+	display: inline-block;
+	width: 15%;
+	list-style-type: none;
+} 
+
+.hnav a:hover {
+	background-color: #e791bf;
+	color: #11181e;
+}
+
+.hnav a {
+	text-decoration: none;
+	color: #E4F2EA;
+	font-size: 1.7em;
+	font-weight: bold;
+	padding: 1em 1% 1em 1%;
+	
+}
+
+.news {
+	color:Red;
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 45%;
+}
+
+.newsbody {
+	background-color: #e791bf;
+	background-image: url("../images/newsletter.png");
+	background-repeat:no-repeat;
+	background-position: center;
+	
+}
+
+.newh1 {
+	color: red;
+	text-align: center;
+	font-family: "kirby classic";
+	font-size: 10em;
+	padding: 0;
+	margin: 0;
+}
+
+.star1 {
+	float: right;
+	margin-right: 3%;
+	font-size: 3em;
+	background: -webkit-linear-gradient(white, yellow, gold);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.star2{
+	float: right;
+	background: -webkit-linear-gradient(white, yellow, gold);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	font-size: 2em;
+}
+
+.star3 {
+	float: left;
+	background: -webkit-linear-gradient(white, yellow, gold);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	font-size: 3em;
+}
+
+.star4{
+	float: left;
+	background: -webkit-linear-gradient(white, yellow, gold);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	font-size: 2em;
+}
+
+.conceptp {
+	font-family: "kirby classic";
+	color: gold;
+	font-size: 2em;
+	font-weight: bold;
+	background: -webkit-linear-gradient(white, yellow, gold);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	text-align: center;
+	padding: 0%, 6%, 0%, 6%;
+	
+}
+.conecptpic {
+	float: left;
+}
+
+h2 {
+	font-family: "kirby classic";
+	color: gold;
+	font-size: 2em;
+	font-weight: bold;
+	background: -webkit-linear-gradient(white, yellow, gold);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	text-align: center;
+}
+
+.characterbody {
+	background-image: url("../images/characteristics.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	background-color: red;
+}
+
+p {
+	font-family: "kirby classic";
+	color: gold;
+	font-size: 1.5em;
+	font-weight: bold;
+	background: -webkit-linear-gradient(white, yellow, gold);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	text-align: center;
+}
+
+.characterh1 {
+	font-family: "kirby classic";
+	font-size: 5em;
+	color: gold;
+	text-align: center;
+	background: -webkit-linear-gradient(white, yellow, gold);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	text-shadow:2px 2px;
+}
+
+.apph1 {
+	font-family: "kirby classic";
+	font-size: 5em;
+	color: gold;
+	text-align: center;
+	background: -webkit-linear-gradient(white, yellow, gold);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.appbody {
+	background-color: deepskyblue;
+	background-image: url("..//images/appearances.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: fixed;
+}
+
+.conceptbody {
+	background-color: lime;
+	margin: 0%;
+}
